@@ -14,6 +14,26 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Bootstrap 4 ruby gem for Ruby on Rails (Sprockets) and Hanami (formerly Lotus).
+gem 'bootstrap', '~> 4.4.1'
+# The bcrypt Ruby gem provides a simple wrapper for safely handling passwords.
+gem 'bcrypt',         '3.1.12'
+# This gem which help you to generate something default from it`s library read more https://github.com/faker-ruby/faker
+gem 'faker',          '1.7.3'
+# will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, Merb, DataMapper and Sequel.
+gem 'will_paginate', '3.1.6'
+# Hooks into will_paginate to format the html to match Twitter Bootstrap styling.
+gem 'bootstrap-will_paginate', '1.0.0' 
+# Automatic Ruby code style checking tool.
+gem 'rubocop'
+# Flexible authentication solution for Rails with Warden
+gem 'devise'
+# Facebook OAuth2 Strategy for OmniAuth
+gem 'omniauth-facebook'
+# https://fontawesome.com/?from=io font-awesome-rails provides the Font-Awesome web fonts and stylesheets as a Rails engine for use with the asset pipeline.
+gem "font-awesome-rails"
+# http://en.gravatar.com/ A configurable and documented Rails view helper for adding gravatars into your Rails application.
+gem 'gravatar_image_tag'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -39,6 +59,10 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
+  #rspec-rails is a testing framework for Rails 3+.
+  gem "rspec-rails"
+  # This module allows Ruby programs to interface with the SQLite3 database engine (www.sqlite.org)
+  gem 'sqlite3', '1.3.13'
 end
 
 group :development do
