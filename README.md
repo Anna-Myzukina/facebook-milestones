@@ -34,8 +34,12 @@ group :development, :test do
 * gem ["rspec-rails"](https://github.com/rspec/rspec-rails) 
 * gem ['sqlite3', '1.3.13'](https://github.com/sparklemotion/sqlite3-ruby)
 end
-        bundle install
-        bundle updete
+        
+ 
+ Than use next command in your terminal
+ 
+      $  bundle install
+      $  bundle updete
 
 1. Cause we added bootstrap to Gemfile in next step we should create file and add bootstrap to our application
 
