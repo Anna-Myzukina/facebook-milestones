@@ -61,3 +61,12 @@ Inside this file app/assets/stylesheets/custom.scss add next code
         @import "font-awesome";
 
 On this site https://fontawesome.com/?from=io you can choose any icons you want
+
+
+## Milestone 3:
+
+I this project we Create models with associations and implement all requested features for users and posts. Add authentication with Devise as described in requirements.
+
+rails generate scaffold User first_name:string last_name:string email:string password:string birthday:string gender:string
+
+rails db:migrate
