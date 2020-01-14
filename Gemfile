@@ -14,15 +14,15 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-# Bootstrap 4 ruby gem for Ruby on Rails (Sprockets) and Hanami (formerly Lotus).
+# Bootstrap 4 ruby gem for Ruby on Rails (Sprockets) and Hanami (formerly Lotus)
 gem 'bootstrap', '~> 4.4.1'
 # The bcrypt Ruby gem provides a simple wrapper for safely handling passwords.
 gem 'bcrypt',         '3.1.12'
-# This gem which help you to generate something default from it`s library read more https://github.com/faker-ruby/faker
+# to generate something default from it`s library read more https://github.com/faker-ruby/faker
 gem 'faker',          '1.7.3'
-# will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, Merb, DataMapper and Sequel.
+# a pagination library that integrates with Ruby on Rails, Sinatra...
 gem 'will_paginate', '3.1.6'
-# Hooks into will_paginate to format the html to match Twitter Bootstrap styling.
+# Hooks into will_paginate to format the html to match Twitter Bootstrap styling
 gem 'bootstrap-will_paginate', '1.0.0' 
 # Automatic Ruby code style checking tool.
 gem 'rubocop'
@@ -30,9 +30,9 @@ gem 'rubocop'
 gem 'devise'
 # Facebook OAuth2 Strategy for OmniAuth
 gem 'omniauth-facebook'
-# https://fontawesome.com/?from=io font-awesome-rails provides the Font-Awesome web fonts and stylesheets as a Rails engine for use with the asset pipeline.
+# https://fontawesome.com/?from=io font-awesome-rails provides the Font-Awesome
 gem "font-awesome-rails"
-# http://en.gravatar.com/ A configurable and documented Rails view helper for adding gravatars into your Rails application.
+# http://en.gravatar.com/ Rails view helper to add gravatars to your Rails app
 gem 'gravatar_image_tag'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
