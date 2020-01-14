@@ -11,7 +11,7 @@
 * Watch next video to be familiar with Primary and Foreign Keys [Entity Relationship Diagram (ERD) Tutorial - Part 2](https://www.youtube.com/watch?v=-CuY5ADwn24)
 
 Here is a screenshot with example of such image with diagram:
-![screen]()
+![screen](https://github.com/Anna-Myzukina/facebook-milestones/blob/master/docs/ERD-facebook.jpeg)
 
 
 ## Milestone 2:
