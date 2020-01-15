@@ -70,3 +70,6 @@ I this project we Create models with associations and implement all requested fe
 rails generate scaffold User first_name:string last_name:string email:string password:string birthday:string gender:string
 
 rails db:migrate
+
+
+* I had error with migration so this link helps me https://github.com/rack/rack/commit/f80e65d5dde251ee446e4c0bd038f8bc4ec30314
