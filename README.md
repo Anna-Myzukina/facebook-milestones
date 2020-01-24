@@ -73,3 +73,6 @@ rails db:migrate
 
 
 * I had error with migration so this link helps me https://github.com/rack/rack/commit/f80e65d5dde251ee446e4c0bd038f8bc4ec30314
+
+
+https://stackoverflow.com/questions/11789867/error-while-dbmigrate-for-an-existing-modelhttps://stackoverflow.com/questions/11789867/error-while-dbmigrate-for-an-existing-model 
