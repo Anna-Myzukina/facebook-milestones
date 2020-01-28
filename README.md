@@ -276,3 +276,6 @@ devise/registrations/new.html.erb
 <% end %>
 
 <%= render "devise/shared/links" %>
+
+
+## Milestone 4:
