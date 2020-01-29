@@ -8,7 +8,27 @@
         
 * This article and video can be useful [The Ultimate Intermediate Ruby on Rails Tutorial: Let’s Create an Entire App!](https://www.freecodecamp.org/news/lets-create-an-intermediate-level-ruby-on-rails-application-d7c6e997c63f/) , also this article [Adding Authentication with Devise](https://guides.railsgirls.com/devise) and video: [Testing with RSpec](https://www.youtube.com/watch?v=71eKcNxwxVY)
 
-* If you forgot during creating your app add next peace of code --database=postgresql please follow next article [Making the Change From SQLite3 to PostgreSQL - Ruby on Rails](https://dev.to/torianne02/making-the-change-from-sqlite3-to-postgresql-ruby-on-rails-2m0p) and add postgresql manually : But main you should add lat version of postgress.
+* NOTE If you forgot during creating your app add next peace of code --database=postgresql please follow next article [Making the Change From SQLite3 to PostgreSQL - Ruby on Rails](https://dev.to/torianne02/making-the-change-from-sqlite3-to-postgresql-ruby-on-rails-2m0p) and add postgresql manually : But main you should add lat version of postgress.
+
+* NOTE if you need to add column to your database please use next command
+
+        rails generate migration add_fieldname_to_tablename fieldname:string. 
+        
+        
+* NOTE Sometimes, even dropping a local development database is not a good idea. There are better ways to delete/destroy a specific migration in your Rails application.
+
+You could use rails d migration command to destroy a particular migration:
+
+rails d migration MigrationName
+To undo the changes corresponding to a particular migration, you can use db:migrate:down method like this:
+
+        rake db:migrate:down VERSION=XXX
+
+* version you can find in file schema.rb
+
+after you that command you delete that file donot forgor to run
+
+        rails db:migrate
 
 ## Milestone 1:
 
