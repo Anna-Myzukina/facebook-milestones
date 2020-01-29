@@ -284,3 +284,5 @@ devise/registrations/new.html.erb
 
 
         rails generate model Comment body:text user:references post:references
+        
+        rails db:migrate
