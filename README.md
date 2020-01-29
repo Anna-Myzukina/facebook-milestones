@@ -281,3 +281,6 @@ devise/registrations/new.html.erb
 
 
 ## Milestone 4:
+
+
+        rails generate model Comment body:text user:references post:references
