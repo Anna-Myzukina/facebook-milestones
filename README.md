@@ -64,7 +64,7 @@ end
  Than use next command in your terminal
  
       $  bundle install
-      $  bundle updete
+      $  bundle update
 
 1. Cause we added bootstrap to Gemfile in next step we should create file and add bootstrap to our application
 
