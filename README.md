@@ -313,3 +313,26 @@ devise/registrations/new.html.erb
 Similar to our posts controller we need to generate one for comments.
 
         rails g controller comments
+        
+        
+        
+        
+        =====================================================
+        
+        
+        
+<div class="container">
+  <div class="row">
+  <p id="notice"><%= notice %></p>
+<div class="center jumbotron main-banner">
+  <div class="user-photo">
+    <img class="user-gravatar" alt="User photo" src="/assets/underwater" />
+      <h2><%= current_user.username %></h2>  
+  </div>
+  <div class="under-buner-menu">
+    <a href="#">Lorem</a>
+    <a href="#">Ipsum</a>
+    <a href="#">Set</a>
+    <a href="#">Loram</a>
+  </div>
+</div>
