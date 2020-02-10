@@ -29,6 +29,9 @@ To undo the changes corresponding to a particular migration, you can use db:migr
 after you that command you delete that file donot forgor to run
 
         rails db:migrate
+        
+        
+### Testing https://leanpub.com/everydayrailsrspec/read_sample
 
 ## Milestone 1:
 
