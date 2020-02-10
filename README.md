@@ -372,3 +372,8 @@ Similar to our posts controller we need to generate one for comments.
   height: 100px;
   width: 100%;
 }
+
+
+## Milestone 5, 6 friendship
+
+https://smartfunnycool.com/friendships-in-activerecord/
