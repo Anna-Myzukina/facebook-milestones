@@ -1,5 +1,9 @@
 # Project: Building Facebook
 
+* git undo all uncommitted or unsaved changes 
+
+        git reset --hard HEAD
+
 * NOTE before start chreate project using this command (name_of_project it`s example, you should change it on your own name of your project for example: facebook-clone...)
 
         rails new name_of_project --database=postgresql
