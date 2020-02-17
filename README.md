@@ -382,5 +382,5 @@ Similar to our posts controller we need to generate one for comments.
 
 
 ## Milestone 5, 6 friendship
-
+http://railscasts.com/episodes/163-self-referential-association?view=asciicast
 https://smartfunnycool.com/friendships-in-activerecord/
