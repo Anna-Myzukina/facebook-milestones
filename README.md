@@ -382,7 +382,7 @@ Similar to our posts controller we need to generate one for comments.
 
 
 ## Milestone 5, 6 friendship
-http://railscasts.com/episodes/163-self-referential-association?view=asciicast
-https://smartfunnycool.com/friendships-in-activerecord/
+* http://railscasts.com/episodes/163-self-referential-association?view=asciicast
+* https://smartfunnycool.com/friendships-in-activerecord/
 
-With callbacks it is possible to write code that will run whenever an Active Record object is created, saved, updated, deleted, validated, or loaded from the database.[Active Record Callbacks](https://guides.rubyonrails.org/v5.2/active_record_callbacks.html)
+* With callbacks it is possible to write code that will run whenever an Active Record object is created, saved, updated, deleted, validated, or loaded from the database.[Active Record Callbacks](https://guides.rubyonrails.org/v5.2/active_record_callbacks.html)
