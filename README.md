@@ -1,8 +1,10 @@
-# Project: Building Facebook
+# Project: Building Facebook clone
 
-* git undo all uncommitted or unsaved changes 
+* DON'T PANIK if something wrong with your project you can reset chaqnges in branch using next commands
+### The reset to undo changes. The clean to remove any untracked files and directories.
 
-        git reset --hard HEAD
+            $ git reset --hard HEAD
+            $ git clean -fd 
 
 * NOTE before start chreate project using this command (name_of_project it`s example, you should change it on your own name of your project for example: facebook-clone...)
 
